@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9241F121E4E16C00C21BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9241F021E4E16C00C21BD6 /* AppDelegate.swift */; };
+		DB9241F321E4E16C00C21BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9241F221E4E16C00C21BD6 /* ViewController.swift */; };
+		DB9241F621E4E16C00C21BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9241F421E4E16C00C21BD6 /* Main.storyboard */; };
+		DB9241F821E4E16D00C21BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9241F721E4E16D00C21BD6 /* Assets.xcassets */; };
+		DB9241FB21E4E16D00C21BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9241F921E4E16D00C21BD6 /* LaunchScreen.storyboard */; };
+		DB92420621E4E16D00C21BD6 /* BankMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92420521E4E16D00C21BD6 /* BankMasterTests.swift */; };
+		DB92421121E4E16D00C21BD6 /* BankMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92421021E4E16D00C21BD6 /* BankMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB92420221E4E16D00C21BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9241E521E4E16C00C21BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9241EC21E4E16C00C21BD6;
+			remoteInfo = BankMaster;
+		};
+		DB92420D21E4E16D00C21BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9241E521E4E16C00C21BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9241EC21E4E16C00C21BD6;
+			remoteInfo = BankMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB9241ED21E4E16C00C21BD6 /* BankMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9241F021E4E16C00C21BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB9241F221E4E16C00C21BD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB9241F521E4E16C00C21BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9241F721E4E16D00C21BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9241FA21E4E16D00C21BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9241FC21E4E16D00C21BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB92420121E4E16D00C21BD6 /* BankMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB92420521E4E16D00C21BD6 /* BankMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankMasterTests.swift; sourceTree = "<group>"; };
+		DB92420721E4E16D00C21BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB92420C21E4E16D00C21BD6 /* BankMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB92421021E4E16D00C21BD6 /* BankMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankMasterUITests.swift; sourceTree = "<group>"; };
+		DB92421221E4E16D00C21BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9241EA21E4E16C00C21BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9241FE21E4E16D00C21BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB92420921E4E16D00C21BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9241E421E4E16C00C21BD6 = {
+			isa = PBXGroup;
+			children = (
+				DB9241EF21E4E16C00C21BD6 /* BankMaster */,
+				DB92420421E4E16D00C21BD6 /* BankMasterTests */,
+				DB92420F21E4E16D00C21BD6 /* BankMasterUITests */,
+				DB9241EE21E4E16C00C21BD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9241EE21E4E16C00C21BD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9241ED21E4E16C00C21BD6 /* BankMaster.app */,
+				DB92420121E4E16D00C21BD6 /* BankMasterTests.xctest */,
+				DB92420C21E4E16D00C21BD6 /* BankMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9241EF21E4E16C00C21BD6 /* BankMaster */ = {
+			isa = PBXGroup;
+			children = (
+				DB9241F021E4E16C00C21BD6 /* AppDelegate.swift */,
+				DB9241F221E4E16C00C21BD6 /* ViewController.swift */,
+				DB9241F421E4E16C00C21BD6 /* Main.storyboard */,
+				DB9241F721E4E16D00C21BD6 /* Assets.xcassets */,
+				DB9241F921E4E16D00C21BD6 /* LaunchScreen.storyboard */,
+				DB9241FC21E4E16D00C21BD6 /* Info.plist */,
+			);
+			path = BankMaster;
+			sourceTree = "<group>";
+		};
+		DB92420421E4E16D00C21BD6 /* BankMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB92420521E4E16D00C21BD6 /* BankMasterTests.swift */,
+				DB92420721E4E16D00C21BD6 /* Info.plist */,
+			);
+			path = BankMasterTests;
+			sourceTree = "<group>";
+		};
+		DB92420F21E4E16D00C21BD6 /* BankMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB92421021E4E16D00C21BD6 /* BankMasterUITests.swift */,
+				DB92421221E4E16D00C21BD6 /* Info.plist */,
+			);
+			path = BankMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9241EC21E4E16C00C21BD6 /* BankMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB92421521E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMaster" */;
+			buildPhases = (
+				DB9241E921E4E16C00C21BD6 /* Sources */,
+				DB9241EA21E4E16C00C21BD6 /* Frameworks */,
+				DB9241EB21E4E16C00C21BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankMaster;
+			productName = BankMaster;
+			productReference = DB9241ED21E4E16C00C21BD6 /* BankMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB92420021E4E16D00C21BD6 /* BankMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB92421821E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMasterTests" */;
+			buildPhases = (
+				DB9241FD21E4E16D00C21BD6 /* Sources */,
+				DB9241FE21E4E16D00C21BD6 /* Frameworks */,
+				DB9241FF21E4E16D00C21BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB92420321E4E16D00C21BD6 /* PBXTargetDependency */,
+			);
+			name = BankMasterTests;
+			productName = BankMasterTests;
+			productReference = DB92420121E4E16D00C21BD6 /* BankMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB92420B21E4E16D00C21BD6 /* BankMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB92421B21E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMasterUITests" */;
+			buildPhases = (
+				DB92420821E4E16D00C21BD6 /* Sources */,
+				DB92420921E4E16D00C21BD6 /* Frameworks */,
+				DB92420A21E4E16D00C21BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB92420E21E4E16D00C21BD6 /* PBXTargetDependency */,
+			);
+			name = BankMasterUITests;
+			productName = BankMasterUITests;
+			productReference = DB92420C21E4E16D00C21BD6 /* BankMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9241E521E4E16C00C21BD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = PeterHu;
+				TargetAttributes = {
+					DB9241EC21E4E16C00C21BD6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DB92420021E4E16D00C21BD6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB9241EC21E4E16C00C21BD6;
+					};
+					DB92420B21E4E16D00C21BD6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB9241EC21E4E16C00C21BD6;
+					};
+				};
+			};
+			buildConfigurationList = DB9241E821E4E16C00C21BD6 /* Build configuration list for PBXProject "BankMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9241E421E4E16C00C21BD6;
+			productRefGroup = DB9241EE21E4E16C00C21BD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9241EC21E4E16C00C21BD6 /* BankMaster */,
+				DB92420021E4E16D00C21BD6 /* BankMasterTests */,
+				DB92420B21E4E16D00C21BD6 /* BankMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9241EB21E4E16C00C21BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9241FB21E4E16D00C21BD6 /* LaunchScreen.storyboard in Resources */,
+				DB9241F821E4E16D00C21BD6 /* Assets.xcassets in Resources */,
+				DB9241F621E4E16C00C21BD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9241FF21E4E16D00C21BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB92420A21E4E16D00C21BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9241E921E4E16C00C21BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9241F321E4E16C00C21BD6 /* ViewController.swift in Sources */,
+				DB9241F121E4E16C00C21BD6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9241FD21E4E16D00C21BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB92420621E4E16D00C21BD6 /* BankMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB92420821E4E16D00C21BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB92421121E4E16D00C21BD6 /* BankMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB92420321E4E16D00C21BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9241EC21E4E16C00C21BD6 /* BankMaster */;
+			targetProxy = DB92420221E4E16D00C21BD6 /* PBXContainerItemProxy */;
+		};
+		DB92420E21E4E16D00C21BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9241EC21E4E16C00C21BD6 /* BankMaster */;
+			targetProxy = DB92420D21E4E16D00C21BD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9241F421E4E16C00C21BD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9241F521E4E16C00C21BD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9241F921E4E16D00C21BD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9241FA21E4E16D00C21BD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB92421321E4E16D00C21BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB92421421E4E16D00C21BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB92421621E4E16D00C21BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.BankMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB92421721E4E16D00C21BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.BankMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB92421921E4E16D00C21BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.BankMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankMaster.app/BankMaster";
+			};
+			name = Debug;
+		};
+		DB92421A21E4E16D00C21BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.BankMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankMaster.app/BankMaster";
+			};
+			name = Release;
+		};
+		DB92421C21E4E16D00C21BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.BankMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankMaster;
+			};
+			name = Debug;
+		};
+		DB92421D21E4E16D00C21BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BankMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.BankMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BankMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9241E821E4E16C00C21BD6 /* Build configuration list for PBXProject "BankMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB92421321E4E16D00C21BD6 /* Debug */,
+				DB92421421E4E16D00C21BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB92421521E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB92421621E4E16D00C21BD6 /* Debug */,
+				DB92421721E4E16D00C21BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB92421821E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB92421921E4E16D00C21BD6 /* Debug */,
+				DB92421A21E4E16D00C21BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB92421B21E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB92421C21E4E16D00C21BD6 /* Debug */,
+				DB92421D21E4E16D00C21BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9241E521E4E16C00C21BD6 /* Project object */;
+}
