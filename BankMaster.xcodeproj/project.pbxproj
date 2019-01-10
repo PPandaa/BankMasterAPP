@@ -14,6 +14,14 @@
 		DB9241FB21E4E16D00C21BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9241F921E4E16D00C21BD6 /* LaunchScreen.storyboard */; };
 		DB92420621E4E16D00C21BD6 /* BankMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92420521E4E16D00C21BD6 /* BankMasterTests.swift */; };
 		DB92421121E4E16D00C21BD6 /* BankMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92421021E4E16D00C21BD6 /* BankMasterUITests.swift */; };
+		DB92421F21E4E24600C21BD6 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92421E21E4E24600C21BD6 /* TransactionViewController.swift */; };
+		DB92422721E4E27000C21BD6 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422021E4E26F00C21BD6 /* HomePageViewController.swift */; };
+		DB92422821E4E27000C21BD6 /* BankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422121E4E26F00C21BD6 /* BankTableViewCell.swift */; };
+		DB92422921E4E27000C21BD6 /* IndexPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422221E4E27000C21BD6 /* IndexPageTableViewController.swift */; };
+		DB92422A21E4E27000C21BD6 /* NewBankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422321E4E27000C21BD6 /* NewBankViewController.swift */; };
+		DB92422B21E4E27000C21BD6 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422421E4E27000C21BD6 /* Exchange.swift */; };
+		DB92422C21E4E27000C21BD6 /* ExchangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422521E4E27000C21BD6 /* ExchangeTableViewController.swift */; };
+		DB92422D21E4E27000C21BD6 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422621E4E27000C21BD6 /* Bank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		DB92420C21E4E16D00C21BD6 /* BankMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB92421021E4E16D00C21BD6 /* BankMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankMasterUITests.swift; sourceTree = "<group>"; };
 		DB92421221E4E16D00C21BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB92421E21E4E24600C21BD6 /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		DB92422021E4E26F00C21BD6 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		DB92422121E4E26F00C21BD6 /* BankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTableViewCell.swift; sourceTree = "<group>"; };
+		DB92422221E4E27000C21BD6 /* IndexPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPageTableViewController.swift; sourceTree = "<group>"; };
+		DB92422321E4E27000C21BD6 /* NewBankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBankViewController.swift; sourceTree = "<group>"; };
+		DB92422421E4E27000C21BD6 /* Exchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		DB92422521E4E27000C21BD6 /* ExchangeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewController.swift; sourceTree = "<group>"; };
+		DB92422621E4E27000C21BD6 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,16 @@
 		DB9241EF21E4E16C00C21BD6 /* BankMaster */ = {
 			isa = PBXGroup;
 			children = (
+				DB92422621E4E27000C21BD6 /* Bank.swift */,
+				DB92422121E4E26F00C21BD6 /* BankTableViewCell.swift */,
+				DB92422421E4E27000C21BD6 /* Exchange.swift */,
+				DB92422521E4E27000C21BD6 /* ExchangeTableViewController.swift */,
+				DB92422021E4E26F00C21BD6 /* HomePageViewController.swift */,
+				DB92422221E4E27000C21BD6 /* IndexPageTableViewController.swift */,
+				DB92422321E4E27000C21BD6 /* NewBankViewController.swift */,
 				DB9241F021E4E16C00C21BD6 /* AppDelegate.swift */,
 				DB9241F221E4E16C00C21BD6 /* ViewController.swift */,
+				DB92421E21E4E24600C21BD6 /* TransactionViewController.swift */,
 				DB9241F421E4E16C00C21BD6 /* Main.storyboard */,
 				DB9241F721E4E16D00C21BD6 /* Assets.xcassets */,
 				DB9241F921E4E16D00C21BD6 /* LaunchScreen.storyboard */,
@@ -256,8 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB92422721E4E27000C21BD6 /* HomePageViewController.swift in Sources */,
+				DB92422A21E4E27000C21BD6 /* NewBankViewController.swift in Sources */,
 				DB9241F321E4E16C00C21BD6 /* ViewController.swift in Sources */,
+				DB92421F21E4E24600C21BD6 /* TransactionViewController.swift in Sources */,
+				DB92422B21E4E27000C21BD6 /* Exchange.swift in Sources */,
+				DB92422821E4E27000C21BD6 /* BankTableViewCell.swift in Sources */,
 				DB9241F121E4E16C00C21BD6 /* AppDelegate.swift in Sources */,
+				DB92422D21E4E27000C21BD6 /* Bank.swift in Sources */,
+				DB92422C21E4E27000C21BD6 /* ExchangeTableViewController.swift in Sources */,
+				DB92422921E4E27000C21BD6 /* IndexPageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
