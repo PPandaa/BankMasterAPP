@@ -98,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BankTableViewCell" rowHeight="146" id="GRA-jC-FHk" customClass="BankTableViewCell" customModule="FinalProject" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BankTableViewCell" rowHeight="146" id="GRA-jC-FHk" customClass="BankTableViewCell" customModule="BankMaster" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="146"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GRA-jC-FHk" id="5ec-TK-kLj">
@@ -206,6 +206,32 @@
                 <exit id="BpD-7H-qfB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2800" y="86"/>
+        </scene>
+        <!--Pie Chart View Controller-->
+        <scene sceneID="fm5-Pj-5JQ">
+            <objects>
+                <viewController id="dLl-4K-zBf" customClass="PieChartViewController" customModule="BankMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X9m-Re-qFc" customClass="PieChartView" customModule="Charts">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h4x-2U-fPM" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="hF8-Jn-T87"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="history" id="TgY-4n-lKo"/>
+                    <connections>
+                        <outlet property="pieChartView" destination="h4x-2U-fPM" id="2k2-Bo-Cji"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g68-np-Yqn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-775.36231884057975" y="864.94565217391312"/>
         </scene>
         <!--Exchange Table View Controller-->
         <scene sceneID="lhe-zz-aIZ">
@@ -469,6 +495,7 @@
                     <connections>
                         <segue destination="1FA-OK-moB" kind="relationship" relationship="viewControllers" id="DtZ-3W-IbZ"/>
                         <segue destination="i1D-JL-vU0" kind="relationship" relationship="viewControllers" id="6s8-fZ-XNq"/>
+                        <segue destination="dLl-4K-zBf" kind="relationship" relationship="viewControllers" id="a5t-Kp-9kf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cf4-d1-mzS" userLabel="First Responder" sceneMemberID="firstResponder"/>

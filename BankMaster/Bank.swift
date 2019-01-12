@@ -10,6 +10,7 @@ import Foundation
 
 struct Bank:Codable {
     var bankName: String
+    var bankShortName: String
     var money: Int
     static func read() -> [Bank]? {
         if let data = UserDefaults.standard.data(forKey: "bank"), let bank = try? PropertyListDecoder().decode([Bank].self, from: data) {

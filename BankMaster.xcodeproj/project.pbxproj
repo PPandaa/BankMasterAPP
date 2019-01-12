@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1633789B8D1F1219F235F280 /* Pods_BankMasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200EE21411930BD2CA405F2 /* Pods_BankMasterTests.framework */; };
+		37B07B6CA0679FA2AE21DE1C /* Pods_BankMasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B5FCC5AF1B9D7FBBAFED27 /* Pods_BankMasterUITests.framework */; };
+		AC4799E0F8471608306F039B /* Pods_BankMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3936913C5FBFBF6A7C321A /* Pods_BankMaster.framework */; };
 		DB9241F121E4E16C00C21BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9241F021E4E16C00C21BD6 /* AppDelegate.swift */; };
 		DB9241F321E4E16C00C21BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9241F221E4E16C00C21BD6 /* ViewController.swift */; };
 		DB9241F621E4E16C00C21BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9241F421E4E16C00C21BD6 /* Main.storyboard */; };
@@ -22,6 +25,7 @@
 		DB92422B21E4E27000C21BD6 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422421E4E27000C21BD6 /* Exchange.swift */; };
 		DB92422C21E4E27000C21BD6 /* ExchangeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422521E4E27000C21BD6 /* ExchangeTableViewController.swift */; };
 		DB92422D21E4E27000C21BD6 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92422621E4E27000C21BD6 /* Bank.swift */; };
+		DB92423321E977DB00C21BD6 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB92423221E977DB00C21BD6 /* PieChartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		198577A5B65F73937CD07C55 /* Pods-BankMasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMasterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankMasterUITests/Pods-BankMasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B151915E4BE1DB1FB13978E /* Pods-BankMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankMaster/Pods-BankMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		5052E4127A1739190367F3F6 /* Pods-BankMasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMasterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankMasterTests/Pods-BankMasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		5200EE21411930BD2CA405F2 /* Pods_BankMasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankMasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F61A38751F2EACDAC39D34F /* Pods-BankMasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMasterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankMasterTests/Pods-BankMasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E6DDBF9414BE8AD36858001 /* Pods-BankMasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMasterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankMasterUITests/Pods-BankMasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B5FCC5AF1B9D7FBBAFED27 /* Pods_BankMasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankMasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA6A29C1F48DA212844BE27 /* Pods-BankMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankMaster/Pods-BankMaster.release.xcconfig"; sourceTree = "<group>"; };
 		DB9241ED21E4E16C00C21BD6 /* BankMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9241F021E4E16C00C21BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB9241F221E4E16C00C21BD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +75,8 @@
 		DB92422421E4E27000C21BD6 /* Exchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
 		DB92422521E4E27000C21BD6 /* ExchangeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewController.swift; sourceTree = "<group>"; };
 		DB92422621E4E27000C21BD6 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		DB92423221E977DB00C21BD6 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
+		EE3936913C5FBFBF6A7C321A /* Pods_BankMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4799E0F8471608306F039B /* Pods_BankMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1633789B8D1F1219F235F280 /* Pods_BankMasterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B07B6CA0679FA2AE21DE1C /* Pods_BankMasterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437955E1ED9E8510D73F0C0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE3936913C5FBFBF6A7C321A /* Pods_BankMaster.framework */,
+				5200EE21411930BD2CA405F2 /* Pods_BankMasterTests.framework */,
+				D2B5FCC5AF1B9D7FBBAFED27 /* Pods_BankMasterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB9241E421E4E16C00C21BD6 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +124,8 @@
 				DB92420421E4E16D00C21BD6 /* BankMasterTests */,
 				DB92420F21E4E16D00C21BD6 /* BankMasterUITests */,
 				DB9241EE21E4E16C00C21BD6 /* Products */,
+				FD237DDEE2CC18BAABA12617 /* Pods */,
+				437955E1ED9E8510D73F0C0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +153,7 @@
 				DB9241F221E4E16C00C21BD6 /* ViewController.swift */,
 				DB92421E21E4E24600C21BD6 /* TransactionViewController.swift */,
 				DB9241F421E4E16C00C21BD6 /* Main.storyboard */,
+				DB92423221E977DB00C21BD6 /* PieChartViewController.swift */,
 				DB9241F721E4E16D00C21BD6 /* Assets.xcassets */,
 				DB9241F921E4E16D00C21BD6 /* LaunchScreen.storyboard */,
 				DB9241FC21E4E16D00C21BD6 /* Info.plist */,
@@ -149,6 +179,19 @@
 			path = BankMasterUITests;
 			sourceTree = "<group>";
 		};
+		FD237DDEE2CC18BAABA12617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B151915E4BE1DB1FB13978E /* Pods-BankMaster.debug.xcconfig */,
+				DAA6A29C1F48DA212844BE27 /* Pods-BankMaster.release.xcconfig */,
+				6F61A38751F2EACDAC39D34F /* Pods-BankMasterTests.debug.xcconfig */,
+				5052E4127A1739190367F3F6 /* Pods-BankMasterTests.release.xcconfig */,
+				198577A5B65F73937CD07C55 /* Pods-BankMasterUITests.debug.xcconfig */,
+				7E6DDBF9414BE8AD36858001 /* Pods-BankMasterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB92421521E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMaster" */;
 			buildPhases = (
+				2C23BA6CD3AE11984F273741 /* [CP] Check Pods Manifest.lock */,
 				DB9241E921E4E16C00C21BD6 /* Sources */,
 				DB9241EA21E4E16C00C21BD6 /* Frameworks */,
 				DB9241EB21E4E16C00C21BD6 /* Resources */,
+				36EE5C6E1E73DB8EA5835B6D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB92421821E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMasterTests" */;
 			buildPhases = (
+				DEFD4E80312D31A36B91BCC6 /* [CP] Check Pods Manifest.lock */,
 				DB9241FD21E4E16D00C21BD6 /* Sources */,
 				DB9241FE21E4E16D00C21BD6 /* Frameworks */,
 				DB9241FF21E4E16D00C21BD6 /* Resources */,
@@ -191,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB92421B21E4E16D00C21BD6 /* Build configuration list for PBXNativeTarget "BankMasterUITests" */;
 			buildPhases = (
+				F5DA20365DF653C2ACC827F0 /* [CP] Check Pods Manifest.lock */,
 				DB92420821E4E16D00C21BD6 /* Sources */,
 				DB92420921E4E16D00C21BD6 /* Frameworks */,
 				DB92420A21E4E16D00C21BD6 /* Resources */,
@@ -275,6 +322,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C23BA6CD3AE11984F273741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EE5C6E1E73DB8EA5835B6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BankMaster/Pods-BankMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BankMaster/Pods-BankMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEFD4E80312D31A36B91BCC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankMasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DA20365DF653C2ACC827F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankMasterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB9241E921E4E16C00C21BD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,6 +424,7 @@
 				DB92421F21E4E24600C21BD6 /* TransactionViewController.swift in Sources */,
 				DB92422B21E4E27000C21BD6 /* Exchange.swift in Sources */,
 				DB92422821E4E27000C21BD6 /* BankTableViewCell.swift in Sources */,
+				DB92423321E977DB00C21BD6 /* PieChartViewController.swift in Sources */,
 				DB9241F121E4E16C00C21BD6 /* AppDelegate.swift in Sources */,
 				DB92422D21E4E27000C21BD6 /* Bank.swift in Sources */,
 				DB92422C21E4E27000C21BD6 /* ExchangeTableViewController.swift in Sources */,
@@ -462,6 +601,7 @@
 		};
 		DB92421621E4E16D00C21BD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B151915E4BE1DB1FB13978E /* Pods-BankMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,6 +619,7 @@
 		};
 		DB92421721E4E16D00C21BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA6A29C1F48DA212844BE27 /* Pods-BankMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -496,6 +637,7 @@
 		};
 		DB92421921E4E16D00C21BD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F61A38751F2EACDAC39D34F /* Pods-BankMasterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +658,7 @@
 		};
 		DB92421A21E4E16D00C21BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5052E4127A1739190367F3F6 /* Pods-BankMasterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +679,7 @@
 		};
 		DB92421C21E4E16D00C21BD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198577A5B65F73937CD07C55 /* Pods-BankMasterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +699,7 @@
 		};
 		DB92421D21E4E16D00C21BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6DDBF9414BE8AD36858001 /* Pods-BankMasterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

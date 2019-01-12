@@ -13,6 +13,7 @@ class NewBankViewController: UIViewController,UIPickerViewDataSource,UIPickerVie
     @IBOutlet weak var bank: UIPickerView!
     @IBOutlet weak var imageView: UIImageView!
     var pickBank: String?
+    var pickBankShortName: String?
     var total: Bank?
     let bankList = ["私房錢",
                 "Chase 大通銀行",
@@ -25,6 +26,17 @@ class NewBankViewController: UIViewController,UIPickerViewDataSource,UIPickerVie
                 "Chang Hwa Bank 彰化銀行",
                 "Land Bank 土地銀行",
                 "Cathay United Bank 國泰世華銀行"]
+    let shortName = ["私房錢",
+                     "大通銀行",
+                     "花旗銀行",
+                     "滙豐銀行",
+                     "玉山銀行",
+                     "第一銀行",
+                     "台新銀行",
+                     "富邦銀行",
+                     "彰化銀行",
+                     "土地銀行",
+                     "國泰世華銀行"]
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -37,6 +49,7 @@ class NewBankViewController: UIViewController,UIPickerViewDataSource,UIPickerVie
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         pickBank = bankList[row]
+        pickBankShortName = shortName[row]
         imageView.image = UIImage(named: pickBank!)
     }
     override func viewDidLoad() {
@@ -47,7 +60,7 @@ class NewBankViewController: UIViewController,UIPickerViewDataSource,UIPickerVie
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let inputMoney = Int(money.text!)
-        total = Bank(bankName:pickBank!,money:inputMoney!)
+        total = Bank(bankName:pickBank!,bankShortName:pickBankShortName!, money:inputMoney!)
     }
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         var result = true
